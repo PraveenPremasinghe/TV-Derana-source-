@@ -1,0 +1,58 @@
+.Mainbanner_Card{
+    /* width: 300px;
+  height: 400px; */
+
+  padding: 25px 60px 25px 60px;
+  background-color: rgb(172, 19, 19);
+background: linear-gradient(207.7deg, rgba(44, 35, 42, 0.52) 5.04%, #2B2833 96.58%);
+mix-blend-mode: normal;
+backdrop-filter: blur(100px);
+border-radius: 30px;
+}
+
+
+.Mainbanner_Card_img{
+  display: flex;
+justify-content: center;
+}
+.hr{
+    opacity: 30%;
+    padding: 0px;
+}
+
+.Mainbanner_Card_details{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 42px;
+display: flex;
+justify-content: center;
+text-align: center;
+letter-spacing: 0.05em;
+color: white;
+
+}
+
+.Mainbanner_Card_details1{
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: white;
+    
+    }
+
+
+    .Mainbannerdiv {
+      position:relative;
+  }
+  
+  .Mainbannerdivcard {
+      position: absolute;
+      left: 50px;
+      top: 50px;
+  }

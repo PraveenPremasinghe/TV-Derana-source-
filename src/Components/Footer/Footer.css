@@ -1,0 +1,185 @@
+.footer1{
+    background: #FAFAFA;
+border: 1px solid rgba(143, 143, 143, 0.1);
+padding: 40px;
+}
+
+
+.Tvderana_logo{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+
+}
+
+.Tvderana_logo img{
+width: 4rem;
+
+}
+
+
+.Tvderanatitle{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+text-transform: uppercase;
+padding: 10px;
+
+color: rgba(0, 0, 0, 0.95);
+}
+
+
+
+
+.socialmedia{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.socialmedia-icon{
+
+    padding: 10px;
+    width: 45px;
+  height: auto;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+    
+    
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+  
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+
+color: #2C2C2C;
+  }
+  
+  
+  
+  
+  
+  .nav__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  
+  
+  
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: rgb(80, 80, 80);
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+  
+  
+    
+  
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
+
+
+  .footerhr{
+    border: 0.5px solid;
+    background-color: #000000;
+    opacity: 10%;
+    margin: 0px !important;
+  }
+
+  .footer_copyright{
+      display: flex;
+    justify-content: center;
+
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+padding: 10px;
+  }

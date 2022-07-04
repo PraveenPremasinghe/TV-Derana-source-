@@ -1,0 +1,20 @@
+.Watch_button{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.Watchbtn{
+    font-family: 'FONTSPRING DEMO - Artico Medium';
+    font-style: normal;
+   color: white;
+   font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    background: #FF0001;
+    border-radius: 50px;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    cursor: pointer;
+}
+

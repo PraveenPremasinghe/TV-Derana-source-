@@ -1,0 +1,28 @@
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+@font-face {
+  font-family: ' FONTSPRING DEMO - Artico Medium';
+  src: local('Artico'), url(./Font/Fontspring-DEMO-artico-medium.otf) format('truetype');
+}
+
+
+.Advertisment{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+}
+
+.Advertisment2{
+
+  padding-top: 50px;
+  padding-bottom: 70px;
+}

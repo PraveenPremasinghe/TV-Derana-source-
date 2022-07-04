@@ -1,0 +1,23 @@
+.Showscard{
+
+  padding: 5px 5px 5px 19px;
+}
+
+.showcardimg{
+
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  pointer-events: none;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+
+
+
