@@ -1,6 +1,7 @@
 
 
 import React from "react";
+import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
 
 import "./Header.css";
 import Livebutton from './Livebutton.png'; 
@@ -22,21 +23,22 @@ function Header(){
         <div className="menu" id="myTopnav">
           <ul>
             <a href="javascript:void(0);" style={{fontSize: '15px'}} className="icon" onclick="openNav()">☰</a>
-            <li><a href="#">Programmes</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Reality shows</a></li>
-            <li><a href="#">TV Derana-Srilanka</a></li>
+           <Link to="/programmers"><li>Programmes</li></Link>
+           <Link to="/"><li>Gallery</li></Link>
+           <Link to="/Contactus"><li>About us</li></Link>
+           <Link to="/"><li>Reality shows</li></Link>
+           <Link to="/"><li>TV Derana-Srilanka</li></Link>
+           
           </ul>
         </div>
       </header>
       <div id="mySidenav" className="sidenav">
         <a href="javascript:void(0)" className="closebtn" onclick="closeNav()">×</a>
-        <li><a href="#">Programmes</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Reality shows</a></li>
-        <li><a href="#">TV Derana-Srilanka</a></li>
+        <Link to="/programmers"><li>Programmes</li></Link>
+           <Link to="/"><li>Gallery</li></Link>
+           <Link to="/"><li>About us</li></Link>
+           <Link to="/"><li>Reality shows</li></Link>
+           <Link to="/"><li>TV Derana-Srilanka</li></Link>
       </div>
 
     

@@ -56,8 +56,8 @@ function Footer() {
         </div>
         <hr className="footerhr" />
 
-        <footer class="footer">
-          <div class="footer__addr">
+        <footer className="footer">
+          <div className="footer__addr">
             Discover Other Websites
             <div>
           <Icon
@@ -94,13 +94,13 @@ function Footer() {
           </div>
           
 
-          <ul class="footer__nav">
-            <li class="nav__item nav__item--extra"></li>
+          <ul className="footer__nav">
+            <li className="nav__item nav__item--extra"></li>
 
-            <li class="nav__item">
-              <h2 class="nav__title">Search More</h2>
+            <li className="nav__item">
+              <h2 className="nav__title">Search More</h2>
 
-              <ul class="nav__ul">
+              <ul className="nav__ul">
                 <li>
                   <a href="#">Live</a>
                 </li>
@@ -119,9 +119,9 @@ function Footer() {
             </li>
 
             <li class="nav__item">
-              <h2 class="nav__title">Help & Support</h2>
+              <h2 className="nav__title">Help & Support</h2>
 
-              <ul class="nav__ul">
+              <ul className="nav__ul">
                 <li>
                   <a href="#">About us</a>
                 </li>

@@ -1,0 +1,87 @@
+.Select_season{
+
+  display: flex;
+  padding: 40px 50px 40px 50px;
+
+
+}
+
+.season{
+  font-family: 'FONTSPRING DEMO - Artico Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+
+
+.dropdown{
+
+  width: 200px;
+
+ user-select: none;
+ position: relative;
+}
+
+.dropdown .dropdown-btn{
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #2B2833;
+  border-radius: 8px;
+    color: #000000;
+cursor: pointer;
+
+}
+
+.dropdown .dropdown-content{
+  position: absolute;
+top: 100%;
+left: 0;
+/* padding: 15px; */
+color: #000000;
+width: 100%;
+
+
+
+background: rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+-webkit-backdrop-filter: blur(60px);
+backdrop-filter: blur(60px);
+border-radius: 8px;
+
+}
+
+
+.dropdown .dropdown-content .dropdown-item{
+cursor: pointer;
+transition: all 0.2s;
+color: lightyellow;
+
+
+padding: 6px 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 4px;
+  
+  }
+
+  .dropdown .dropdown-content .dropdown-item:hover{
+    cursor: pointer;
+  user-select: none;
+  background: #004EC9;
+
+      }
+
+      .dropdown-icon{
+        float: right;
+      }

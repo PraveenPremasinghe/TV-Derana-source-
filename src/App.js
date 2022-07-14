@@ -1,133 +1,33 @@
 
 import React from 'react';
+import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
 
-
-
-import Header from './Components/Header/Header.js';
-import Mainbanner_Card from './Components/MainBanner-Card/Mainbanner_Card.js';
- import MaincategoryContainer from  './Components/Maincategory-Container/Maincategory-Container.jsx'
-
-
-import mainShowslider, { Showslider, LatestEpisodesShowslider } from './Components/Showslider/mainShowslider.jsx';
 
  import 'bootstrap/dist/css/bootstrap.min.css';
  import './index.css';
 
- import Footer from './Components/Footer/Footer.jsx';
- import Live_button from './Components/Live_button/Live_button.jsx';
+import Home from './Pages/Home.jsx';
+import Programmers from './Pages/Programmers.jsx';
+import Errorpage from './Pages/Errorpage';
+import Drama_Episode from './Pages/Drama_Episodes.jsx'
+import ProgrammerShedule from './Pages/Programmer-Shedule'
+import Contactus from './Pages/Contactus'
 
-
-
-
-
-
-
-
-
-
-
-import Mainbanner from './Components/Header/mainbackcover.png';
-import Advertisment_banner from './Components/Header/homepagebanner1.png'
-import Advertisment_banner2 from './Components/Header/homepagebanner2.png'
 
 
 function App() {
   return (
-    <div >
-    <Header />
+<Router>
+      <Routes>
+        <Route path="/programmers" caseSensitive={false} element={<Programmers />} />
+        <Route path="*" caseSensitive={false} element={<Errorpage />} />
+        <Route path="/dramaEpisodes" caseSensitive={false} element={<Drama_Episode />} />
+        <Route path="/programmerShedule" caseSensitive={false} element={<ProgrammerShedule />} />
+        <Route path="/Contactus" caseSensitive={false} element={<Contactus />} />
 
-    {/* <div className="mainbanner">
-          <img src={Mainbanner}/>
-        </div> */}
-
-        <div className='Mainbannerdiv'>
-<img src={Mainbanner}  width='100%'/>
-
-    <div className="Mainbannerdivcard" >
-    <Mainbanner_Card/>
-</div>
-</div>
-<div className="Advertisment">
-<img src={Advertisment_banner} width="100%" />
-
-</div>
-
-
-
-
-
-<div className="Maincategory-Container">
-<MaincategoryContainer/>
-</div>
-        
-
-<div className="Showslider">
-<Showslider/>
-</div>
-
-<div className="Maincategory-Container">
-<MaincategoryContainer/>
-</div>
-
-<div className="Showslider">
-<LatestEpisodesShowslider/>
-</div>
-
-<div className="Maincategory-Container">
-<MaincategoryContainer/>
-</div>
-        
-
-<div className="Showslider">
-<Showslider/>
-</div>
-
-<div className="Maincategory-Container">
-<MaincategoryContainer/>
-</div>
-        
-
-<div className="Showslider">
-<Showslider/>
-</div>
-
-
-<div className="Advertisment ">
-<img src={Advertisment_banner2} width="100%"  />
-</div>
-
-
-
-
-<div className="Maincategory-Container">
-<MaincategoryContainer/>
-</div>
-        
-
-<div className="Showslider">
-<Showslider/>
-</div>
-
-
-<div className="Maincategory-Container">
-<MaincategoryContainer/>
-</div>
-        
-
-<div className="Showslider">
-<Showslider/>
-</div>
-
-<div className="Advertisment2">
-<img src={Advertisment_banner} width="100%" />
-
-</div>
-
-<Footer/>
-
-  </div>
-
-  
+            <Route path="/" caseSensitive={false} element={<Home />} />
+      </Routes>
+    </Router>
 
   );
 }

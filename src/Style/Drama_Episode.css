@@ -1,0 +1,83 @@
+.EpisodeSeason{
+    margin: 0 2%;
+
+    
+}
+.EpisodeSeason-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start ;
+    align-items: stretch;
+    align-content: flex-start;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(4) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+
+  .style-1 .paginationUL .pageItem .pageButton {
+    margin-left: 5px;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    background-color:transparent;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.style-1  {
+
+padding-bottom: 50px;
+
+}
+
+.style-1 .paginationUL .pageItem .pageButton:hover {
+    background-color: #cccccc;
+    color: #f6f1f1;
+    fill: #f1f2f6;
+}
+
+.style-1 .paginationUL .pageItem .activeButton {
+    background: #2C2C2C;
+    color: #f1f2f6;
+}
+
+.dropdown{
+  margin-left: 10px;
+}

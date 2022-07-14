@@ -1,0 +1,50 @@
+
+
+.dateday{
+    display: flex;
+    margin-bottom: 20px;
+    float: right;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 25px;
+text-transform: capitalize;
+
+}
+
+.sheduleTable{
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tableheader {
+    background: #FAFCFE;
+    border: 1px solid #DBE4EB;
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'Roboto';
+font-style: normal;
+margin-bottom: 50px;
+  }
+
+
+    
+.tableth{ 
+  background: rgba(240, 240, 240, 0.42);
+border-radius: 10px 10px 0px 0px;
+padding: 15px;
+text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+  }
+    
+  .tabletd {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    /* background-color: aqua; */
+    font-family: 'Roboto';
+font-style: normal;
+  }
+

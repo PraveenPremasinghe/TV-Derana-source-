@@ -1,0 +1,43 @@
+.EpisodeSeason{
+    padding: 0px 30px 30px 0px;
+}
+
+
+.episide_name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+align-items: center;
+text-transform: capitalize;
+color: #000000;
+padding-top: 15px;
+
+
+}
+
+.Epipublish_time{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    align-items: center;
+    text-transform: capitalize;
+    
+    color: #8F8F8F;
+     padding-top: 15px;
+
+}
+
+.episode_image{
+    border-radius: 10px;
+width: 20rem;
+
+   
+}
+
+
