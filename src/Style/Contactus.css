@@ -33,15 +33,13 @@ color: #FFFFFF;
 
 .Channel{
     margin-top: 30px;
-    display: table;
+ 
 }
 
-.Channelimg{
-  display: table-cell;
-}
+
 
 .ChannelDetails{
-  display: table-cell;
+
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -66,7 +64,7 @@ text-align: center;
 }
 
 .contactus-form{
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .flex-container {
@@ -116,8 +114,8 @@ text-align: center;
 
     font-family: 'Poppins';
 font-style: normal;
-font-weight: 400;
-font-size: 18px;
+
+font-size: 16px;
 
 align-items: center;
 text-align: center;
@@ -155,6 +153,7 @@ color: #FFFFFF;
 
   .flex-items1.icon{
 padding-bottom: 10px;
+
   }
 
   .getin{
@@ -172,23 +171,6 @@ color: #000000;
 padding: 50px 40px 50px 40px;
   }
 
-
-  .Parent {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .child1{
-    width: 50%;
-    height: 100vh;
-    
-
-  }
-  
-  .child2 {
-    width: 50%;
-    height: 100vh;
-  }
 
 
 
@@ -222,7 +204,7 @@ input {
   padding: 0.7rem 0.7rem;
   color: gray;
   transition: 0.1s ease-out;
-  width: 90%;
+  width: 100%;
 }
 input:focus {
   border-color: #6200EE;  
@@ -247,7 +229,7 @@ textarea {
   padding: 0.5rem 0.7rem;
   color: gray;
   transition: 0.1s ease-out;
-  width: 90%;
+  width: 100%;
 }
 textarea:focus {
   border-color: #6200EE;  
@@ -290,3 +272,81 @@ padding: 10px;
   width:100%;
   position:absolute;
   }
+
+  .messagebutton{
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    width: 110%;
+   
+  }
+
+
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .MaincategoryContainer2{
+
+    padding-left:30px;
+    padding-right: 30px;
+}
+  
+}

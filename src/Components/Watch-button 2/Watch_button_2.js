@@ -11,7 +11,9 @@ function Watch_button_2(){
         <div>
             <div className="Watch_button_2">
             <button className="Watchbtn_2">
-            <Icon icon="ep:video-play" color="white" />  Watch Now
+            <Icon icon="bi:play-circle-fill" color="white" height="18" />&nbsp; Watch Now
+
+    
             </button>
             </div>
           

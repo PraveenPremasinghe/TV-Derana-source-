@@ -14,9 +14,10 @@ import mainShowslider, { Showslider, LatestEpisodesShowslider } from '../Compone
  import '../index.css';
 
  import Footer from '../Components/Footer/Footer.jsx';
-import Programmers from '../Pages/Programmers.jsx';
 
 
+
+import Header3 from "../Components/Header-03/Header-3.jsx"
 
 
 
@@ -44,7 +45,7 @@ function Home() {
 
 
 
-<Header />
+<Header3/>
 {/* <div className="mainbanner">
           <img src={Mainbanner}/>
         </div> */}

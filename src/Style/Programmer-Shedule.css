@@ -1,4 +1,6 @@
-
+body{
+  background-color: #ffff;
+}
 
 .dateday{
     display: flex;
@@ -10,29 +12,36 @@ font-weight: 600;
 font-size: 17px;
 line-height: 25px;
 text-transform: capitalize;
+color: black;
 
+}
+
+.tabletrv{
+  color: black;
 }
 
 .sheduleTable{
     margin-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
+
+    
 }
 
 .tableheader {
-    background: #FAFCFE;
-    border: 1px solid #DBE4EB;
+  background: rgba(240, 240, 240, 0.42);
+   border: 1px solid #DBE4EB;
     border-radius: 10px;
     width: 100%;
     font-family: 'Roboto';
 font-style: normal;
 margin-bottom: 50px;
+
   }
 
 
     
 .tableth{ 
-  background: rgba(240, 240, 240, 0.42);
 border-radius: 10px 10px 0px 0px;
 padding: 15px;
 text-align: center;
@@ -42,9 +51,78 @@ font-style: normal;
     
   .tabletd {
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 5px 10px 5px;
     /* background-color: aqua; */
     font-family: 'Roboto';
 font-style: normal;
+
   }
 
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .sheduleTable{
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+  
+}

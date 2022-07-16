@@ -16,6 +16,7 @@ import EpisodeSeason from '../Components/EpisodeSeason/EpisodeSeason'
 import '../Style/Drama_Episode.css'
  import 'bootstrap/dist/css/bootstrap.min.css';
  import Footer from '../Components/Footer/Footer.jsx';
+ import Header3 from "../Components/Header-03/Header-3.jsx"
 
 
 import Dramaepisodeimages from "../Dramaepisodeimages";
@@ -37,7 +38,7 @@ function Drama_Episode(){
 
 
 
-    <Header_2/>
+<Header3/>
 
     <div className='Mainbannerdiv'>
 <img src={Mainbanner}  width='100%'/>

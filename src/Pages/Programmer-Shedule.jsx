@@ -15,6 +15,8 @@ import { getValue } from "@testing-library/user-event/dist/utils";
 import { color } from "@mui/system";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header3 from "../Components/Header-03/Header-3.jsx"
+
 
 
 
@@ -31,9 +33,9 @@ function ProgrammerShedule(){
         { Time: "11:00 am - 12:00 pm", Programme: "The Cover", Status: "Over" ,color :"ffff" },
         { Time: "13:00 pm - 01:00 pm", Programme: "Money heist", Status: "Live" ,color :"E40915" ,text:"ffff" },
         { Time: "02:00 pm - 03:00 pm", Programme: "Space Jam", Status: "Coming soon",color :"ffff",text:"000" },
-        { Time: "04:00 pm - 05:00 pm", Programme: "The Cover", Status: "Coming soon" ,color :"ffff" },
-        { Time: "06:00 pm - 07:00 pm", Programme: "Space Jam", Status: "Coming soon" ,color :"ffff" },
-        { Time: "08:00 pm - 09:00 pm", Programme: "Money heist", Status: "Coming soon" ,color :"ffff" },
+        { Time: "04:00 pm - 05:00 pm", Programme: "The Cover", Status: "Coming soon" ,color :"ffff",text:"000"  },
+        { Time: "06:00 pm - 07:00 pm", Programme: "Space Jam", Status: "Coming soon" ,color :"ffff" ,text:"000" },
+        { Time: "08:00 pm - 09:00 pm", Programme: "Money heist", Status: "Coming soon" ,color :"ffff" ,text:"000" },
   
       ]
 
@@ -45,8 +47,7 @@ function ProgrammerShedule(){
 
         
              
-             
-    <Header_2/>
+            <Header3/>
 
 <div className='Mainbannerdiv'>
 <img src={Mainbanner}  width='100%'/>
@@ -90,7 +91,7 @@ function ProgrammerShedule(){
             <tr className="tabletr" key={key} style={{backgroundColor:`#${val.color}` ,color:`#${val.text}`}}>
               <td className="tabletd">{val.Time}</td>
               <td className="tabletd" >{val.Programme}</td>
-              <td className="tabletd" ><div class="badge" style={{backgroundColor: val.Status==="Live"? "#ffff": "#ffff" ,color: val.Status==="Live"? "#E40915": "#000",borderRadius: val.Status==="Live"? "15px": "",padding: val.Status==="Live"? "5px 20px 5px 20px": "",}}>{val.Status} <Icon icon="fluent:live-20-filled" color="#e40915" height="20" /> </div></td>
+              <td className="tabletd" ><div class="badge" style={{backgroundColor: val.Status==="Live"? "#ffff": "#ffff" ,color: val.Status==="Live"? "#E40915": "#000",borderRadius: val.Status==="Live"? "15px": "",padding: val.Status==="Live"? "5px 20px 5px 20px": "",color: val.Status==="Over"? "#808080": "#000"}}>{val.Status} <Icon icon="fluent:live-20-filled" color="#e40915" height="20" /> </div></td>
    
               <hr />
             </tr>

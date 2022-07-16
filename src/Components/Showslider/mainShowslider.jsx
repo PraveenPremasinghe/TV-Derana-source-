@@ -30,11 +30,11 @@ function Showslider() {
           dragConstraints={{ right: 0 , left: -width }}
           className="inner-carousel"
         >
-          {images.map((image) => {
+          {images.map((image,index) => {
             return (
-              <motion.div className="item" key={image}>
-                <img src={image} alt="" />
-             
+              <motion.div className="item" key={index}>
+                {/* <img src={image} alt="" /> */}
+            <ShowsCard src={image.img} name={image.name} days={image.days} time={image.time} />
               </motion.div>
             );
           })}
