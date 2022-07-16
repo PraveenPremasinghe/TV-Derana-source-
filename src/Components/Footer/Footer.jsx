@@ -1,16 +1,7 @@
 import React from "react";
 import "./Footer.css";
-
-
-
 import { Icon } from '@iconify/react';
-
 import Tvderana_logo from "../Header/tv_derana_logo.png";
-
-
-
-
-
 
 
 function Footer() {
@@ -20,7 +11,6 @@ function Footer() {
         <div className="Tvderana_logo">
           <img src={Tvderana_logo} />
         </div>
-
         <div className="Tvderanatitle">Premiun Entertainment Channel</div>
         <div className="socialmedia">
           <Icon
@@ -92,8 +82,6 @@ function Footer() {
           />
         </div>
           </div>
-          
-
           <ul className="footer__nav">
             <li className="nav__item nav__item--extra"></li>
 

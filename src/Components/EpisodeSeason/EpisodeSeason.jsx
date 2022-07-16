@@ -3,15 +3,6 @@ import "./EpisodeSeason.css";
 
 
 
-import episode_image from '../LatestEpisodes/assets/episode_image.png';
-
-
-
-
-
-
-
-
 function EpisodeSeason(props) {
   return (
     <div>
