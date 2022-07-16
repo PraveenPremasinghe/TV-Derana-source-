@@ -1,53 +1,50 @@
-.EpisodeSeason{
-    margin: 0 2%;
+.EpisodeSeason {
+	margin: 0 2%;
 
-    
+
 }
+
 .EpisodeSeason-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:flex-start ;
-    align-items: stretch;
-    align-content: flex-start;
-  }
-  
-
- 
-
-  
-
-  .style-1 .paginationUL .pageItem .pageButton {
-    margin-left: 5px;
-    padding: 0;
-    width: 40px;
-    height: 40px;
-    line-height: 30px;
-    background-color:transparent;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: flex-start;
 }
 
-.style-1  {
 
-padding-bottom: 50px;
+.style-1 .paginationUL .pageItem .pageButton {
+	margin-left: 5px;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	line-height: 30px;
+	background-color: transparent;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.style-1 {
+
+	padding-bottom: 50px;
 
 }
 
 .style-1 .paginationUL .pageItem .pageButton:hover {
-    background-color: #cccccc;
-    color: #f6f1f1;
-    fill: #f1f2f6;
+	background-color: #cccccc;
+	color: #f6f1f1;
+	fill: #f1f2f6;
 }
 
 .style-1 .paginationUL .pageItem .activeButton {
-    background: #2C2C2C;
-    color: #f1f2f6;
+	background: #2C2C2C;
+	color: #f1f2f6;
 }
 
-.dropdown{
-  margin-left: 10px;
+.dropdown {
+	margin-left: 10px;
 }
 
 /* 
@@ -56,9 +53,9 @@ padding-bottom: 50px;
 */
 
 @media (min-width: 1281px) {
-  
-  /* CSS */
-  
+
+	/* CSS */
+
 }
 
 /* 
@@ -67,9 +64,9 @@ padding-bottom: 50px;
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  /* CSS */
-  
+
+	/* CSS */
+
 }
 
 /* 
@@ -78,9 +75,9 @@ padding-bottom: 50px;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-  /* CSS */
-  
+
+	/* CSS */
+
 }
 
 /* 
@@ -89,9 +86,9 @@ padding-bottom: 50px;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  /* CSS */
-  
+
+	/* CSS */
+
 }
 
 /* 
@@ -100,9 +97,9 @@ padding-bottom: 50px;
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-  /* CSS */
-  
+
+	/* CSS */
+
 }
 
 /* 
@@ -111,11 +108,11 @@ padding-bottom: 50px;
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
-  .EpisodeSeason{
-    margin: 0 6%;
 
-    
-}
-  
+	.EpisodeSeason {
+		margin: 0 6%;
+
+
+	}
+
 }

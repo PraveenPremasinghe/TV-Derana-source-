@@ -1,4 +1,3 @@
-
 /* Search bar  */
 
 .wrapper {
@@ -8,31 +7,31 @@
 	margin-right: 5px;
 
 
-  }
+}
 
 
-  
-  #searchQueryInput {
+
+#searchQueryInput {
 	width: 100%;
 	height: 2.1rem;
 	background: #21242B;
-border-radius: 10px;
-color: white;
+	border-radius: 10px;
+	color: white;
 	outline: none;
 	border: none;
 	padding: 0 3.5rem 0 1.5rem;
 	font-size: 1rem;
-  }
-  
-  #searchQuerySubmit {
+}
+
+#searchQuerySubmit {
 	width: 3.5rem;
 	/* height: 2.8rem; */
 	margin-left: -3.5rem;
 	background: none;
 	border: none;
 	outline: none;
-  }
-  
-  #searchQuerySubmit:hover {
+}
+
+#searchQuerySubmit:hover {
 	cursor: pointer;
-  }
+}

@@ -1,7 +1,7 @@
-.Maincategory-Container{
+.Maincategory-Container {
 
-    padding-left: 50px;
-    padding-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 
@@ -10,38 +10,39 @@
 
 
 .main {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 10px 10px 10px;
-  }
- 
-
-  .maincategory_title{
-    font-family: 'FONTSPRING DEMO - Artico Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-color: #000000;
-}
-.seeall{
-
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 51px;
-color: #FF1E1F;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10px 10px 10px;
 }
 
-hr.hrclass{
-    border: 0.5px solid;
-    background-color: #000000;
-    opacity: 10%;
-    margin: 0px !important;
+
+.maincategory_title {
+  font-family: 'FONTSPRING DEMO - Artico Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.seeall {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 51px;
+  color: #FF1E1F;
+}
+
+hr.hrclass {
+  border: 0.5px solid;
+  background-color: #000000;
+  opacity: 10%;
+  margin: 0px !important;
 }
 
 
@@ -51,70 +52,70 @@ hr.hrclass{
 */
 
 @media (min-width: 1281px) {
-  
-    /* CSS */
-    
-  }
-  
-  /* 
+
+  /* CSS */
+
+}
+
+/* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+
+}
+
+/* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
+}
+
+/* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
+}
+
+/* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-    /* CSS */
-    
-  }
-  
-  /* 
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    .Maincategory-Container{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
 
-    .main {
-     
-        padding: 10px 10px 10px 10px;
-      }
-    
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .Maincategory-Container {
+    padding-left: 0px;
+    padding-right: 0px;
   }
+
+  .main {
+
+    padding: 10px 10px 10px 10px;
+  }
+
+}

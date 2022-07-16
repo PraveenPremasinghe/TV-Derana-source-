@@ -1,9 +1,7 @@
-
-
-.Watchbtn_2{
+.Watchbtn_2 {
     margin-top: 5px;
-   color: white;
-   font-size: 13px;
+    color: white;
+    font-size: 13px;
     font-weight: 400;
     text-align: center;
     background: #FF0001;
@@ -13,4 +11,3 @@
     cursor: pointer;
     width: 100%;
 }
-

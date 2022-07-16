@@ -1,63 +1,61 @@
-.Showscard{
+.Showscard {
   position: relative;
- 
+
 
 
 }
 
-.show-watch-button{
-  display:none;
-  }
-  
-  
-  .Showscard:hover .show-watch-button{ 
-    display:block;
-    
-  }
+.show-watch-button {
+  display: none;
+}
+
+
+.Showscard:hover .show-watch-button {
+  display: block;
+
+}
 
 
 
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
- 
+
 }
 
-.textblock{
+.textblock {
 
   position: absolute;
   bottom: 0px;
   color: white;
- padding: 10px 10px 10px 10px;
- background: linear-gradient(180deg, rgba(0, 0, 0, 0) -46%, #000000 68.81%);
- border-radius: 0px 0px 14px 14px;
+  padding: 10px 10px 10px 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -46%, #000000 68.81%);
+  border-radius: 0px 0px 14px 14px;
   width: 100%;
 }
 
 
 
 
-.Showsname{
+.Showsname {
   font-family: 'FONTSPRING DEMO - Artico';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-display: flex;
-align-items: center;
-text-transform: capitalize;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
 }
 
-.show-date-time{
+.show-date-time {
 
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
 
-text-transform: capitalize;
-color: #FFFFFF;
+  text-transform: capitalize;
+  color: #FFFFFF;
 }
-
-

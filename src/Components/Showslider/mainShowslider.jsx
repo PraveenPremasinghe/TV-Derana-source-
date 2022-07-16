@@ -7,82 +7,78 @@ import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import images from "../../images";
 
-import LatestEpisodes from '../LatestEpisodes/LatestEpisodes.jsx'
-
+import LatestEpisodes from "../LatestEpisodes/LatestEpisodes.jsx";
 
 function Showslider() {
- 
-  const [width,setWidth] = useState(0);
+  const [width, setWidth] = useState(0);
   const carousel = useRef();
 
   useEffect(() => {
-
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  },[]);
+  }, []);
 
   return (
     <div>
-     
-
-      <motion.div ref ={carousel}className="carousel" whileTap={{cursor:"grabbing"}}>
+      <motion.div
+        ref={carousel}
+        className="carousel"
+        whileTap={{ cursor: "grabbing" }}
+      >
         <motion.div
           drag="x"
-          dragConstraints={{ right: 0 , left: -width }}
+          dragConstraints={{ right: 0, left: -width }}
           className="inner-carousel"
         >
-          {images.map((image,index) => {
+          {images.map((image, index) => {
             return (
               <motion.div className="item" key={index}>
                 {/* <img src={image} alt="" /> */}
-            <ShowsCard src={image.img} name={image.name} days={image.days} time={image.time} />
+                <ShowsCard
+                  src={image.img}
+                  name={image.name}
+                  days={image.days}
+                  time={image.time}
+                />
               </motion.div>
             );
           })}
-
-
-
         </motion.div>
       </motion.div>
     </div>
   );
 }
 
-
 function LatestEpisodesShowslider() {
- 
-  const [width,setWidth] = useState(0);
+  const [width, setWidth] = useState(0);
   const carousel = useRef();
 
   useEffect(() => {
-
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  },[]);
+  }, []);
 
   return (
     <div>
-     
-
-      <motion.div ref ={carousel}className="carousel" whileTap={{cursor:"grabbing"}}>
+      <motion.div
+        ref={carousel}
+        className="carousel"
+        whileTap={{ cursor: "grabbing" }}
+      >
         <motion.div
           drag="x"
-          dragConstraints={{ right: 0 , left: -width }}
+          dragConstraints={{ right: 0, left: -width }}
           className="inner-carousel"
         >
           {images.map((image) => {
             return (
               <motion.div className="item1" key={image}>
-               <LatestEpisodes/>
-             
+                <LatestEpisodes />
               </motion.div>
             );
           })}
-
-
-
         </motion.div>
       </motion.div>
     </div>
   );
 }
 
-export {Showslider,LatestEpisodesShowslider};
+export { Showslider, LatestEpisodesShowslider };

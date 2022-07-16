@@ -1,8 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { Icon } from '@iconify/react';
+import { Icon } from "@iconify/react";
 import Tvderana_logo from "../Header/tv_derana_logo.png";
-
 
 function Footer() {
   return (
@@ -50,37 +49,37 @@ function Footer() {
           <div className="footer__addr">
             Discover Other Websites
             <div>
-          <Icon
-            className="socialmedia-icon"
-            icon="ri:facebook-circle-fill"
-            color="#000"
-            width={40}
-          />
-          <Icon
-            className="socialmedia-icon"
-            icon="fa:youtube"
-            color="#000"
-            width={40}
-          />
-          <Icon
-            className="socialmedia-icon"
-            icon="logos:tiktok-icon"
-            color="#000"
-            width={40}
-          />
-          <Icon
-            className="socialmedia-icon"
-            icon="bxl:instagram-alt"
-            color="#000"
-            width={40}
-          />
-          <Icon
-            className="socialmedia-icon"
-            icon="ant-design:twitter-circle-filled"
-            color="#000"
-            width={40}
-          />
-        </div>
+              <Icon
+                className="socialmedia-icon"
+                icon="ri:facebook-circle-fill"
+                color="#000"
+                width={40}
+              />
+              <Icon
+                className="socialmedia-icon"
+                icon="fa:youtube"
+                color="#000"
+                width={40}
+              />
+              <Icon
+                className="socialmedia-icon"
+                icon="logos:tiktok-icon"
+                color="#000"
+                width={40}
+              />
+              <Icon
+                className="socialmedia-icon"
+                icon="bxl:instagram-alt"
+                color="#000"
+                width={40}
+              />
+              <Icon
+                className="socialmedia-icon"
+                icon="ant-design:twitter-circle-filled"
+                color="#000"
+                width={40}
+              />
+            </div>
           </div>
           <ul className="footer__nav">
             <li className="nav__item nav__item--extra"></li>
@@ -106,7 +105,7 @@ function Footer() {
               </ul>
             </li>
 
-            <li class="nav__item">
+            <li className="nav__item">
               <h2 className="nav__title">Help & Support</h2>
 
               <ul className="nav__ul">
@@ -130,11 +129,10 @@ function Footer() {
         </footer>
       </div>
 
-      
       <div className="footer_copyright">
-      @2022 TV Derana.All right reserved.solution by Thenology Partner FortunaCreatives
+        @2022 TV Derana.All right reserved.solution by Thenology Partner
+        FortunaCreatives
       </div>
-
     </div>
   );
 }

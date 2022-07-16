@@ -1,4 +1,4 @@
-.Select_season{
+.Select_season {
 
   display: flex;
   padding: 40px 50px 40px 50px;
@@ -6,97 +6,97 @@
 
 }
 
-.season{
+.season {
   font-family: 'FONTSPRING DEMO - Artico Medium';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 25px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
 
-display: flex;
-align-items: center;
-text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
 
-color: #000000;
+  color: #000000;
 
 }
 
 
 
-.dropdown{
+.dropdown {
 
   width: 200px;
 
- user-select: none;
- position: relative;
+  user-select: none;
+  position: relative;
 }
 
-.dropdown .dropdown-btn{
+.dropdown .dropdown-btn {
   padding: 5px 10px 5px 10px;
   border: 1px solid #2B2833;
   border-radius: 8px;
-    color: #000000;
-cursor: pointer;
+  color: #000000;
+  cursor: pointer;
 
 }
 
-.dropdown .dropdown-content{
+.dropdown .dropdown-content {
   position: absolute;
-top: 100%;
-left: 0;
-/* padding: 15px; */
-color: #000000;
-width: 100%;
+  top: 100%;
+  left: 0;
+  /* padding: 15px; */
+  color: #000000;
+  width: 100%;
 
 
 
-background: rgba(0, 0, 0, 0.1);
-border: 1px solid rgba(255, 255, 255, 0.3);
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
--webkit-backdrop-filter: blur(60px);
-backdrop-filter: blur(60px);
-border-radius: 8px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(60px);
+  backdrop-filter: blur(60px);
+  border-radius: 8px;
 
 }
 
 
-.dropdown .dropdown-content .dropdown-item{
-cursor: pointer;
-transition: all 0.2s;
-color: lightyellow;
+.dropdown .dropdown-content .dropdown-item {
+  cursor: pointer;
+  transition: all 0.2s;
+  color: lightyellow;
 
 
-padding: 6px 15px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-border-radius: 4px;
-  
-  }
+  padding: 6px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
 
-  .dropdown .dropdown-content .dropdown-item:hover{
-    cursor: pointer;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+  cursor: pointer;
   user-select: none;
   background: #004EC9;
 
-      }
+}
 
-      .dropdown-icon{
-        float: right;
-      }
+.dropdown-icon {
+  float: right;
+}
 
 
 
-      /* 
+/* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1281px) {
-  
+
   /* CSS */
-  
+
 }
 
 /* 
@@ -105,9 +105,9 @@ border-radius: 4px;
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
+
   /* CSS */
-  
+
 }
 
 /* 
@@ -116,9 +116,9 @@ border-radius: 4px;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
   /* CSS */
-  
+
 }
 
 /* 
@@ -127,9 +127,9 @@ border-radius: 4px;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
+
   /* CSS */
-  
+
 }
 
 /* 
@@ -138,9 +138,9 @@ border-radius: 4px;
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
+
   /* CSS */
-  
+
 }
 
 /* 
@@ -149,13 +149,13 @@ border-radius: 4px;
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
-  .Select_season{
 
-   
+  .Select_season {
+
+
     padding: 27px
-  
-  
-  } /* CSS */
-  
+  }
+
+  /* CSS */
+
 }

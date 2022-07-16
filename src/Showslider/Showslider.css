@@ -1,30 +1,29 @@
-.Showslider{
-margin: 0 5%;
+.Showslider {
+	margin: 0 5%;
 
 }
 
 
+.item {
+	min-height: 10rem;
+	min-width: 10rem;
+	padding: 10px;
+}
 
-.item{
-   min-height: 10rem;
- min-width: 10rem;
-  padding: 10px;
-  }
-
-.item img{
-  width: 100%;
-  pointer-events: none;
+.item img {
+	width: 100%;
+	pointer-events: none;
 
 }
-  
-  .inner-carousel{
-    display: flex;
 
-   
-  }
+.inner-carousel {
+	display: flex;
 
-  .carousel{
-    cursor: grab;
-    overflow: hidden;
-    
-  }
+
+}
+
+.carousel {
+	cursor: grab;
+	overflow: hidden;
+
+}
