@@ -1,5 +1,5 @@
+// Import Files
 import React from "react";
-
 import Contactusbanner from "../Components/Header/contactusbg.png";
 import Contactusimage from "../Components/Header/contactusimage.png";
 import "../Style/Contactus.css";
@@ -11,6 +11,7 @@ import Header3 from "../Components/Header-03/Header-3.jsx";
 function Contactus() {
   return (
     <div>
+      {/* import Header Component to Contact us Page */}
       <Header3 />
 
       <div className="Mainbannerdiv">
@@ -165,6 +166,7 @@ function Contactus() {
         </div>
       </div>
 
+      {/* import Footer Component to Contact us Page */}
       <Footer />
     </div>
   );

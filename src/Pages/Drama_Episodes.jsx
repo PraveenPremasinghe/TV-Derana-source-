@@ -1,17 +1,14 @@
+// Import Files
 import React, { useEffect, useState } from "react";
 import SweetPagination from "sweetpagination";
-
 import Mainbanner_Card from "../Components/MainBanner-Card/Mainbanner_Card.js";
 import MaincategoryContainer from "../Components/Maincategory-Container/Maincategory-Container.jsx";
-
 import mainShowslider, {
   LatestEpisodesShowslider,
 } from "../Components/Showslider/mainShowslider.jsx";
-
 import Mainbanner from "../Components/Header/finalbg.png";
 import Select_sesion from "../Components/Select_sesion/Select_sesion.jsx";
 import EpisodeSeason from "../Components/EpisodeSeason/EpisodeSeason";
-
 import "../Style/Drama_Episode.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../Components/Footer/Footer.jsx";
@@ -25,20 +22,24 @@ function Drama_Episode() {
 
   return (
     <div>
+      {/* import Header Component to Drama Episodes Page */}
       <Header3 />
 
       <div className="Mainbannerdiv">
         <img src={Mainbanner} width="100%" />
 
+      {/* import Main banner Card Component to Drama Episodes Page */}
         <div className="Mainbannerdivcard">
           <Mainbanner_Card />
         </div>
       </div>
 
+      {/* import Main Container Component to Drama Episodes Page */}
       <div className="Maincategory-Container">
         <MaincategoryContainer title="Latest Episodes" />
       </div>
-
+   
+      {/* import Episode Show Slider Component to Drama Episodes Page */}
       <div className="Showslider">
         <LatestEpisodesShowslider />
         <hr className="hrclass" />
@@ -51,6 +52,7 @@ function Drama_Episode() {
         </div>
       </div>
 
+      {/* Create array Episode Season */}
       <div className="EpisodeSeason">
         <div className="EpisodeSeason-container">
           {currentPageData.map((item) => (
@@ -61,6 +63,7 @@ function Drama_Episode() {
         </div>
       </div>
 
+    {/* Add Page Navigation */}
       <SweetPagination
         currentPageData={setCurrentPageData}
         dataPerPage={6}
@@ -69,6 +72,7 @@ function Drama_Episode() {
         getStyle={"style-1"}
       />
 
+      {/* import Footer Component to Drama Episodes Page */}
       <Footer />
     </div>
   );

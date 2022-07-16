@@ -1,9 +1,7 @@
 import React from "react";
 import "./Showscard.css";
 import Watch_button_2 from "../Watch-button 2/Watch_button_2";
-
 import Card from "../Header/card1.png";
-
 import images from "../../images";
 
 function ShowsCard(props) {

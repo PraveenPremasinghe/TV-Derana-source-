@@ -1,8 +1,6 @@
 import React from "react";
-
 import "./Mainbanner_Card.css";
 import Watch_button from "../Watch-button/Watch_button.js";
-
 import Dramalogo from "./dramalogo2.png";
 
 function Mainbanner_Card() {

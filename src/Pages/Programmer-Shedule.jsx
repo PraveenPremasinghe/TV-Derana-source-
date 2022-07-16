@@ -11,12 +11,12 @@ import { Icon } from "@iconify/react";
 import Footer from "../Components/Footer/Footer";
 import { getValue } from "@testing-library/user-event/dist/utils";
 import { color } from "@mui/system";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header3 from "../Components/Header-03/Header-3.jsx";
 
 function ProgrammerShedule() {
   const momentv = moment();
+// Create Array  programme Table
 
   const data = [
     {
@@ -76,6 +76,7 @@ function ProgrammerShedule() {
 
   return (
     <div>
+       {/* import Header Component to Programme Shedule Page */}
       <Header3 />
 
       <div className="Mainbannerdiv">
@@ -91,6 +92,7 @@ function ProgrammerShedule() {
 
       <div className="sheduleTable">
         <div className="dateday">
+          {/* Get real time and date */}
           <div className="day">{momentv.format("dddd")} </div>
           <Icon
             icon="fluent:divider-short-24-regular"
@@ -119,6 +121,7 @@ function ProgrammerShedule() {
                 <td className="tabletd">{val.Time}</td>
                 <td className="tabletd">{val.Programme}</td>
                 <td className="tabletd">
+                  {/* Set color to table field */}
                   <div
                     className="badge"
                     style={{
@@ -145,7 +148,7 @@ function ProgrammerShedule() {
           })}
         </table>
       </div>
-
+ {/* import Footer Component to Programme Shedule Page */}
       <Footer />
     </div>
   );

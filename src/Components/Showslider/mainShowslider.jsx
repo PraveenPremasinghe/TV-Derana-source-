@@ -1,12 +1,9 @@
 import React from "react";
 import "./mainShowslider.css";
-
 import ShowsCard from "../Show_Card/ShowsCard.jsx";
-
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import images from "../../images";
-
 import LatestEpisodes from "../LatestEpisodes/LatestEpisodes.jsx";
 
 function Showslider() {
