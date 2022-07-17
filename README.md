@@ -6,7 +6,7 @@ This Project Create using React JS , Css , Javascript
 
 Open [Derana TV Responsive Website](https://majestic-smakager-65d011.netlify.app/) to view it in your browser.
 
-### `This is what I designed UI`
+## `This is What I designed UI`
 
 ![Image 1](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/Rectangle.png?v=1658045203805?raw=true "Titfdfdfle")
 ![Image 2](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/imagea.jpg?v=1658046223651?raw=true "Titfdfdfle")
