@@ -10,7 +10,7 @@ This Project Create using React JS , Css , Boostrap
 
 ## Derana TV Responsive Website Host in Netlify
 
-Open [Derana TV Responsive Website](https://majestic-smakager-65d011.netlify.app/) to view it in your browser.
+Open [Derana TV Website](https://majestic-smakager-65d011.netlify.app/) to view it in your browser.
 
 ## `This is UI Mockups`
 
