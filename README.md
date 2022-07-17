@@ -17,7 +17,7 @@ You may also see any lint errors in the console.
 
 
 ![Image 1](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/Rectangle.png?v=1658045203805?raw=true "Titfdfdfle")
-![Image 2](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/mockuuups-clean-desk-with-dell-display-mockup.jpeg?v=1658045458329?raw=true "Titfdfdfle")
+![Image 2](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/imagea.jpg?v=1658046223651?raw=true "Titfdfdfle")
 ![Image 3](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/Rectangle-2.png?v=1658045231985?raw=true "Titfdfdfle")
 ![Image 4](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/mockuuups-ipad-pro-mockup-on-white-table.jpeg?v=1658045249087?raw=true "Titfdfdfle")
 ![Image 5](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/Rectangle-3.png?v=1658045709401?raw=true "Titfdfdfle")
