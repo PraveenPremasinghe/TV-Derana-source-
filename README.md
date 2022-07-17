@@ -4,7 +4,7 @@
 
 # Technologies
 
-This Project Create using React JS , Css , Boostrap 
+This Project Create using React JS , Css , Html , Boostrap 
 
 <p dir="auto">
 
