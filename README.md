@@ -1,6 +1,6 @@
 # Derana TV Responsive Website
 
-This Project Create using React JS , Css , Javascript 
+This Project Create using React JS , Css  
 
 ## Derana TV Responsive Website Host in Netlify
 
