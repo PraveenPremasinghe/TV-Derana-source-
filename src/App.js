@@ -26,8 +26,7 @@ function App() {
         <Route path="/dramaEpisodes" caseSensitive={false} element={<Drama_Episode />} />
         <Route path="/programmerShedule" caseSensitive={false} element={<ProgrammerShedule />} />
         <Route path="/Contactus" caseSensitive={false} element={<Contactus />} />
-
-            <Route path="/" caseSensitive={false} element={<Home />} />
+        <Route path="/" caseSensitive={false} element={<Home />} />
       </Routes>
     </Router>
 
