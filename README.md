@@ -1,4 +1,4 @@
-# Derana TV Website
+# Derana TV Responsive Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
