@@ -2,9 +2,9 @@
 
 This Project Create using React JS , Css , Javascript 
 
-## Available Scripts
+## Derana TV Responsive Website Host in Netlify
 
-In the project directory, you can run:
+Open [http://localhost:3000](https://majestic-smakager-65d011.netlify.app/) to view it in your browser.
 
 ### `npm start`
 
