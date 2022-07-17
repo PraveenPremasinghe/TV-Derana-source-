@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 
 
-![Alt text](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/Rectangle.png?v=1658045203805?raw=true "Title")
+![Image 1](https://cdn.glitch.global/ca03e832-08bf-4bdf-9a88-803cf4177686/Rectangle.png?v=1658045203805?raw=true "Titfdfdfle")
 
 ### `npm test`
 
